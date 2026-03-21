@@ -1037,7 +1037,11 @@ HEAD_DIM = 128  # target head dimension for attention
 WINDOW_PATTERN = "SSSL"  # sliding window pattern: L=full, S=half context
 
 # MoE
+<<<<<<< HEAD
 N_EXPERTS = 4  # 0 = dense MLP, >0 = MoE with this many experts
+=======
+N_EXPERTS = 2  # 0 = dense MLP, >0 = MoE with this many experts
+>>>>>>> 2815e85 (n_experts: 6 -> 2)
 TOP_K = 2  # best routing: top-1 beats top-2 and top-3
 N_SHARED_EXPERTS = 1  # shared experts processed by every token
 AUX_LOSS_WEIGHT = 0.01
