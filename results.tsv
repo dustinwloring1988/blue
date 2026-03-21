@@ -1,2 +1,4 @@
 commit	val_bpb	memory_gb	status	description
+0000000	1.324657	3.4	keep	daily baseline
+3154183	1.485841	4.6	discard	increase depth 8->10 (worse val_bpb, +35% VRAM over budget)
 
