@@ -1,2 +1,10 @@
 commit	val_bpb	memory_gb	status	description
+0000000	1.324657	3.4	keep	daily baseline
+3154183	1.485841	4.6	discard	increase depth 8->10 (worse val_bpb, +35% VRAM over budget)
+bf5a597	1.326090	3.4	discard	n_experts: 6->8 (slightly worse)
+42509fe	1.356199	3.5	discard	n_experts: 6->10 (worse)
+2aca245	1.303690	3.4	keep	n_experts: 6->4 (BEST: val_bpb improved 0.021)
+c0d6afa	1.337096	3.4	discard	matrix_lr: 0.08->0.10 (worse)
+b4bf3b8	1.339816	3.4	discard	matrix_lr: 0.08->0.12 (worse)
+a9c4edd	1.333168	3.2	discard	top_k: 2->1 (worse)
 
