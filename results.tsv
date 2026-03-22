@@ -8,4 +8,8 @@ bf5a597	1.326090	3.4	discard	n_experts: 6->8 (slightly worse)
 c0d6afa	1.337096	3.4	discard	matrix_lr: 0.08->0.10 (worse)
 b4bf3b8	1.339816	3.4	discard	matrix_lr: 0.08->0.12 (worse)
 a9c4edd	1.333168	3.2	discard	top_k: 2->1 (worse)
+6971032	1.412321	4.0	discard	n_experts=2, aspect_ratio 32->34 (worse val_bpb)
+9a2c417	1.476086	4.4	discard	n_experts=2, depth 8->10 (worse val_bpb)
+58240ed	1.304646	3.3	discard	n_experts=2, matrix_lr 0.08->0.10 (slightly worse)
+f550fe1	1.360654	3.3	discard	n_experts=2, weight_decay 0.2->0.1 (worse)
 
